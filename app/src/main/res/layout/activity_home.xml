@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HomeActivity">
+
+   <androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+   android:background="@color/purple_200"
+       android:minHeight="?actionBarSize"
+   android:theme="?actionBarTheme">
+
+   <TextView
+    android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+     android:text="VOTING"
+      android:textColor="@color/white"
+       android:textSize="35sp"
+     android:textStyle="bold"/>
+
+
+
+
+   <Button
+       android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_gravity="end"
+      android:onClick="newVoting"
+       android:text="+"
+   android:textSize="35sp"
+       android:textColor="@color/white"
+      android:textStyle="bold"></Button>
+  </androidx.appcompat.widget.Toolbar>
+   <RadioGroup
+       android:layout_width="match_parent"
+     android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_marginTop="3dp"
+       android:id="@+id/groupId"
+    />
+ <!--<TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:id="@+id/tv_question"
+        android:text="What is your favorite drink?"
+ android:textSize="30sp"
+ android:textStyle="bold"
+android:textAlignment="center"
+     tools:ignore="MissingConstraints" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek_bar1"
+        android:max="100"
+        android:progress="25"
+        android:layout_marginTop="16dp"
+        android:thumb="@android:color/transparent"
+        android:progressDrawable="@drawable/progress_track"
+        app:layout_constraintTop_toBottomOf="@+id/tv_question"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:id="@+id/tv_option1"
+        android:text="Pepsi"
+        android:paddingStart="32dp"
+        android:paddingEnd="0dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/tv_question"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tv_percent1"
+        />
+
+    <TextView
+        android:id="@+id/tv_percent1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:paddingStart="0dp"
+        android:paddingEnd="32dp"
+        android:text="25%"
+        app:layout_constraintTop_toBottomOf="@+id/tv_question"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek_bar2"
+        android:max="100"
+        android:progress="25"
+        android:layout_marginTop="8dp"
+        android:thumb="@android:color/transparent"
+        android:progressDrawable="@drawable/progress_track"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar1"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:id="@+id/tv_option2"
+        android:text="Cola"
+        android:paddingStart="32dp"
+        android:paddingEnd="0dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tv_percent2"
+        />
+
+    <TextView
+        android:id="@+id/tv_percent2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="0dp"
+        android:paddingEnd="32dp"
+        android:text="25%"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+-->
+</RelativeLayout>
